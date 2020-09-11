@@ -6,6 +6,15 @@ background:  linear-gradient(to right, #00aaff,#00ff6c)
 }
 
 
+.text{
+    color: blue;
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
 .calculadora{
 
     display: grid;
@@ -22,7 +31,7 @@ background:  linear-gradient(to right, #00aaff,#00ff6c)
     font-size: 2rem;
     border: 1px solid white;
     outline:none;
-    background-color: rgba(255,255,255,.75);
+    background-color: rgba(255, 255, 255, 0.548);
 }
 
 .calculadora > button:hover {
@@ -33,7 +42,7 @@ background-color: blue;
 
 .output{
 grid-column: 1 / -1;
-background-color: rgba(0,0,0,.75);
+background-color: rgba(0, 0, 0, 0.753);
 display:flex;
 align-items: flex-end;
 justify-content: space-around;
